@@ -10,6 +10,7 @@ $query = mysqli_query($con, $sql);
 if (!$query) {
     die("Error en la consulta: " . mysqli_error($con));
 }
+
 ?>
 
 <!DOCTYPE html>
