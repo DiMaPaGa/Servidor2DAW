@@ -20,6 +20,7 @@ import com.vedruna.ejemplo.persistance.models.Product;
 import com.vedruna.ejemplo.services.ProductServiceI;
 
 @CrossOrigin(origins = "*")
+
 @RestController
 @RequestMapping("/api/v1/products")
 
